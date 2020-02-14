@@ -1,0 +1,122 @@
+#Head {
+  overflow: auto;
+  background-color: maroon;
+}
+#img-duck {
+  margin: 10px 0px 10px 10px;
+  float: left;
+}
+#Head>p {
+  float:left;
+  font-family: Arial;
+  font-size: 40px;
+  color: white;
+  margin-left: 70px;
+}
+#Head>#Head-Contacts {
+  text-align: right;
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  margin-right: 10px;
+}
+
+#Nav {
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  border: 2px solid #333;
+}
+#Nav a {
+  padding-left: 60px;
+  text-decoration: none;
+  color: maroon;
+}
+#Nav a:hover {
+  color: red;
+}
+
+#LeftBlock {
+  display: block;
+  width:335px;
+  max-width: 335px;
+  background-color: maroon;
+  color: white;
+  padding: 3px 0px 3px 3px;
+  margin-top: 8px;
+  font-size: 24px;
+  text-align: center;
+  float:left;
+}
+#LeftBlock>#search {
+  float:right;
+
+}
+#LeftBlock>ul>li {
+  list-style-type: none;
+  text-align:left;
+  font-size:20px;
+}
+
+#RightBlock {
+  position: relative;
+  display: block;
+  text-align: right;
+  width:335px;
+  max-width: 335px;
+  padding: 3px 0px 3px 3px;
+  float:right;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 24px;
+  background-color: maroon;
+}
+
+#Content {
+  display: block;
+  float:left;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 24px;
+  background-color: maroon;
+  position:relative;
+  padding: 10px 10px 10px 10px;
+  margin-left: 73px;
+  margin-bottom: 10px;
+}
+#Content a {
+  color: white;
+  text-decoration: none;
+}
+#Content table {
+  border:3px solid white;
+  border-spacing: 20px;
+}
+#Content>table tr  {
+  border:3px solid white;
+}
+#Content img {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#Footer {
+  height: 70px;
+  background-color: maroon;
+  border-top: 3px solid #ddd;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 10;
+  width:99%;
+  text-align:center;
+  overflow: hidden;
+  font-size: 24px;
+  color: white;
+  padding: 0px 0px 0px 20px;
+}
+p, a {
+  text-shadow: 1px 1px 2px grey, 0 0 1em red;
+}
